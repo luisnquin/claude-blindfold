@@ -1,0 +1,19 @@
+{
+  "name": "claude-blindfold",
+  "owner": {
+    "name": "Luis Quiñones",
+    "url": "https://github.com/luisnquin"
+  },
+  "plugins": [
+    {
+      "name": "blindfold",
+      "source": "./",
+      "description": "Hand the agent secrets it can use in Bash as $NAME without ever seeing their values",
+      "category": "security",
+      "tags": ["secrets", "sudo", "passwords", "tokens", "redaction", "mod"]
+    }
+  ],
+  "metadata": {
+    "description": "Give Claude Code secrets without putting them in the conversation"
+  }
+}
