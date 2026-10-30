@@ -209,7 +209,7 @@ async function form($: EngineInterface, ui: Pick<Elements['terminal'], 'Box' | '
         onInput={value => void update($, draft, real => unmask(value, real))}
         onSubmit={value => void submitDraft($, request, value)}
       />
-      <Box flexDirection="row" gap={2}>
+      <Box flexDirection="row" gap={8} marginTop={1}>
         <Button
           key="cancel"
           label="cancel"
